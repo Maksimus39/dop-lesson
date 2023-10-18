@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
 import './App.css'
-import {Input} from '../components/input/Input'
-import {Todolist} from './components/todolist/Todolist'
+import {Todolist} from "./components/todolist/Todolist";
+
+
 
 export type FilterValuesType = 'all' | 'active' | 'completed'
 
@@ -99,7 +100,7 @@ function App() {
   return (
     <div className="App">
       {mappedTodoLists}
-      <Input />
+
     </div>
   )
 }
